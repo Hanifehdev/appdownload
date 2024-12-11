@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.homeBox {
+  @apply h-20 bg-slate-700 flex justify-center items-center font-medium text-xl rounded-lg;
+}
+
 @font-face {
   font-family: Vazirmatn;
   src: url('/fonts/webfonts/Vazirmatn-Thin.woff2') format('woff2');
