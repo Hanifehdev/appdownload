@@ -13,7 +13,7 @@ const Page = () => {
       </p>
       <div className="grid grid-cols-12 gap-4 mt-8">
         {data.android.map((app) => (
-          <div className="md:col-span-4 col-span-12">
+          <div className="lg:col-start-5 lg:col-end-9 col-span-12">
             <a key={app.id} href={app.downloadLink}>
               <div className="homeBox">
                 <div className="flex items-center justify-between w-full p-4">
@@ -31,7 +31,7 @@ const Page = () => {
             </a>
           </div>
         ))}
-        <div className="md:col-span-4 col-span-12">
+        <div className="lg:col-start-5 lg:col-end-9 col-span-12">
           <Link href="/">
             <div className="back">بازگشت</div>
           </Link>
