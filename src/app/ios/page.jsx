@@ -2,15 +2,16 @@ import React from 'react';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import data from '../data.json';
 import AppName from '../components/AppName';
-const Page = () => {
+const Page = async () => {
+  const data = await fetch('http://localhost:3001/android');
+  const apps = await data.json();
   console.log('Loaded data:', data);
   return (
     <div className="w-full h-screen flex flex-col justify-center">
       <AppName AppName={'آی‌او‌اس'} />
       <div className="grid grid-cols-12 gap-4 mt-8">
-        {data.ios.map((app) => (
+        {apps.map((app) => (
           <div key={app.id} className="lg:col-start-5 lg:col-end-9 col-span-12">
             <a href={app.downloadLink}>
               <div className="homeBox">
