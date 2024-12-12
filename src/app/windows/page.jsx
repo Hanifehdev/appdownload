@@ -1,12 +1,12 @@
 import React from 'react';
-
-import Link from 'next/link';
+import BackBtn from '../components/BackBtn';
 import Image from 'next/image';
-
 import AppName from '../components/AppName';
+
 const Page = async () => {
-  const data = await fetch('http://localhost:3001/android');
+  const data = await fetch(`${process.env.API_URL}/windows`);
   const apps = await data.json();
+
   return (
     <div className="w-full h-screen flex flex-col justify-center">
       <AppName AppName={'ویندوز'} />
@@ -30,11 +30,7 @@ const Page = async () => {
             </a>
           </div>
         ))}
-        <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-          <Link href="/">
-            <div className="back">بازگشت</div>
-          </Link>
-        </div>
+        <BackBtn path="/" />
       </div>
     </div>
   );

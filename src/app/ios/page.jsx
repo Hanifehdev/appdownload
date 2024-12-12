@@ -1,12 +1,13 @@
 import React from 'react';
-
+import BackBtn from '../components/BackBtn';
 import Link from 'next/link';
 import Image from 'next/image';
 import AppName from '../components/AppName';
+
 const Page = async () => {
-  const data = await fetch('http://localhost:3001/android');
+  const data = await fetch(`${process.env.API_URL}/android`);
   const apps = await data.json();
-  console.log('Loaded data:', data);
+
   return (
     <div className="w-full h-screen flex flex-col justify-center">
       <AppName AppName={'آی‌او‌اس'} />
@@ -30,11 +31,7 @@ const Page = async () => {
             </a>
           </div>
         ))}
-        <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-          <Link href="/">
-            <div className="back">بازگشت</div>
-          </Link>
-        </div>
+        <BackBtn path="/" />
       </div>
     </div>
   );

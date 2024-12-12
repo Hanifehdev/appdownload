@@ -1,11 +1,12 @@
 import React from 'react';
-
 import BackBtn from '../components/BackBtn';
 import Image from 'next/image';
 import AppName from '../components/AppName';
+
 const Page = async () => {
-  const data = await fetch('http://localhost:3001/android');
+  const data = await fetch(`${process.env.API_URL}/android`);
   const apps = await data.json();
+
   return (
     <div className="w-full h-screen flex flex-col justify-center">
       <AppName AppName={'اندروید'} />
@@ -30,7 +31,7 @@ const Page = async () => {
             </a>
           </div>
         ))}
-        <BackBtn />
+        <BackBtn path="/" />
       </div>
     </div>
   );
