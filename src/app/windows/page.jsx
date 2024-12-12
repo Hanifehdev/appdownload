@@ -4,13 +4,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import data from '../data.json';
 
+import AppName from '../components/AppName';
 const Page = () => {
   console.log('Loaded data:', data);
   return (
     <div className="w-full h-screen flex flex-col justify-center">
-      <p className="text-center text-2xl font-semibold text-slate-200 cursor-default">
-        نرم افزارهای پیشنهادی ویندوز
-      </p>
+      <AppName AppName={'ویندوز'} />
       <div className="grid grid-cols-12 gap-4 mt-8">
         {data.windows.map((app) => (
           <div key={app.id} className="lg:col-start-5 lg:col-end-9 col-span-12">
