@@ -13,8 +13,8 @@ const Page = () => {
       </p>
       <div className="grid grid-cols-12 gap-4 mt-8">
         {data.windows.map((app) => (
-          <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-            <a key={app.id} href={app.downloadLink}>
+          <div key={app.id} className="lg:col-start-5 lg:col-end-9 col-span-12">
+            <a href={app.downloadLink}>
               <div className="homeBox">
                 <div className="flex items-center justify-between w-full p-4">
                   <div className="overflow-clip rounded">
