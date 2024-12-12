@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Link from 'next/link';
 
 const HomeBox = () => {
@@ -14,17 +13,17 @@ const HomeBox = () => {
         </p>
         <div className="grid grid-cols-12 gap-4 mt-8">
           <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-            <Link href="/android">
+            <Link href="/apps//android">
               <div className="homeBox">اندروید</div>
             </Link>
           </div>
           <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-            <Link href="/ios">
+            <Link href="/apps/ios">
               <div className="homeBox">آی‌او‌اس</div>
             </Link>
           </div>
           <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-            <Link href="/windows">
+            <Link href="/apps//windows">
               <div className="homeBox">ویندوز</div>
             </Link>
           </div>

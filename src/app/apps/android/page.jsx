@@ -1,7 +1,7 @@
 import React from 'react';
-import BackBtn from '../components/BackBtn';
 import Image from 'next/image';
-import AppName from '../components/AppName';
+import BackBtn from '@/app/components/BackBtn';
+import AppName from '@/app/components/AppName';
 
 const Page = async () => {
   const data = await fetch(`${process.env.API_URL}/android`);
