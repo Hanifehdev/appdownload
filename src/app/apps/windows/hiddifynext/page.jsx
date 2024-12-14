@@ -1,7 +1,7 @@
 import React from 'react';
 import AppPage from '@/app/components/AppPage';
 
-import { fetchData } from '../../utils/fetchData';
+import { fetchData } from '@/app/utils/fetchData';
 const page = async () => {
   const data = await fetchData('windows');
   const thisApp = data[1];

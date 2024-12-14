@@ -2,7 +2,7 @@ import React from 'react';
 
 import AppName from '@/app/components/AppName';
 import AppList from '@/app/components/AppList';
-import { fetchData } from '../utils/fetchData';
+import { fetchData } from '../../utils/fetchData';
 
 const Page = async () => {
   const platform = 'android';

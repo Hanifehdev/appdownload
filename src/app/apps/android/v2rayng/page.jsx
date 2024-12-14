@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { fetchData } from '../../utils/fetchData';
+import { fetchData } from '@/app/utils/fetchData';
 
 import AppPage from '@/app/components/AppPage';
 const page = async () => {
