@@ -27,6 +27,7 @@
       "id": 4,
       "appName": "Streisand",
       "imageURL": "/images/streisand.png",
+      "videoURL": "/videos/ios/streisand.mp4",
       "RequireVersion": "Requires iOS 14.0 or later.",
       "downloadLink": "https://apps.apple.com/ru/app/streisand/id6450534064"
     },
@@ -34,6 +35,7 @@
       "id": 5,
       "appName": "Hiddify Next",
       "imageURL": "/images/hiddify.png",
+      "videoURL": "/videos/ios/hiddify.mp4",
       "RequireVersion": "Requires iOS 15.0 or later.",
       "downloadLink": "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532"
     },
@@ -41,6 +43,7 @@
       "id": 6,
       "appName": "Sing-Box",
       "imageURL": "/images/singbox.png",
+      "videoURL": "/videos/ios/singbox.mp4",
       "RequireVersion": "Requires iOS 15.0 or later.",
       "downloadLink": "https://apps.apple.com/us/app/sing-box-vt/id6673731168"
     }

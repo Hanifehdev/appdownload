@@ -13,7 +13,7 @@ const HomeBox = () => {
         </p>
         <div className="grid grid-cols-12 gap-4 mt-8">
           <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-            <Link href="/apps//android">
+            <Link href="/apps/android">
               <div className="homeBox">اندروید</div>
             </Link>
           </div>
