@@ -24,7 +24,7 @@ const AppPage = ({ application, backValue }) => {
           </div>
           <div className="lg:col-start-5 lg:col-end-9 col-span-12">
             <div className="homeBox hover:bg-slate-700 cursor-default">
-              آموزش ویدئویی (به زودی)
+              آموزش ویدئویی
             </div>
           </div>
           <BackBtn path={backValue} />
