@@ -11,7 +11,7 @@ const AppInfo = ({ imageURL, imageAlt, Name, RequireVersion }) => {
         <div className="font-bold text-2xl">{Name}</div>
         <div className="font-light text-slate-300">{RequireVersion}</div>
       </div>
-      <div className="rounded overflow-clip">
+      <div className="rounded-lg overflow-clip">
         <Image
           alt={imageAlt}
           width={64}
