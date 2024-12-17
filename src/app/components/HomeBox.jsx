@@ -18,11 +18,6 @@ const HomeBox = () => {
             </Link>
           </div>
           <div className="lg:col-start-5 lg:col-end-9 col-span-12">
-            <Link href="/apps/ios">
-              <div className="homeBox">آی‌او‌اس</div>
-            </Link>
-          </div>
-          <div className="lg:col-start-5 lg:col-end-9 col-span-12">
             <Link href="/apps/windows">
               <div className="homeBox">ویندوز</div>
             </Link>
