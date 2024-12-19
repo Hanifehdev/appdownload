@@ -10,7 +10,7 @@ const Page = async () => {
 
   return (
     <div className="w-full h-screen flex flex-col justify-center">
-      <AppName AppName={'آی‌او‌اس'} />
+      <AppName AppName={'ویندوز'} />
       <AppList platform={platform} data={apps} />
     </div>
   );
