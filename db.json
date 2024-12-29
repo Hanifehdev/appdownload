@@ -5,7 +5,7 @@
       "appName": "v2rayNG",
       "imageURL": "/images/v2rayng.png",
       "RequireVersion": "Requires Android 5.1 or later.",
-      "downloadLink": "https://github.com/2dust/v2rayNG/releases/download/1.9.22/v2rayNG_1.9.22_universal.apk"
+      "downloadLink": "https://github.com/2dust/v2rayNG/releases/download/1.9.24/v2rayNG_1.9.24_universal.apk"
     },
     {
       "id": 2,
@@ -19,7 +19,7 @@
       "appName": "Sing-Box",
       "imageURL": "/images/singbox.png",
       "RequireVersion": "Requires Android 5.1 or later.",
-      "downloadLink": "https://github.com/SagerNet/sing-box/releases/download/v1.10.3/SFA-1.10.3-universal.apk"
+      "downloadLink": "https://github.com/SagerNet/sing-box/releases/download/v1.10.5/SFA-1.10.5-universal.apk"
     }
   ],
   "ios": [
@@ -54,7 +54,7 @@
       "appName": "V2RayN",
       "imageURL": "/images/v2rayng.png",
       "RequireVersion": "Requires Windows 7 or later.",
-      "downloadLink": "https://github.com/2dust/v2rayN/releases/download/7.2.3/v2rayN-windows-64-With-Core.zip"
+      "downloadLink": "https://github.com/2dust/v2rayN/releases/download/7.4.2/v2rayN-windows-64-With-Core.zip"
     },
     {
       "id": 8,
